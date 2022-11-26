@@ -1,0 +1,173 @@
+body {
+  font-family: "Helvetica";
+  background-color: #cde3fa;
+  color: #24292f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.header__avatar {
+  border-radius: 30%;
+  width: 60%;
+  border: 2px solid;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.header__title {
+  margin: 30px 0 10px 0;
+  font-size: 32px;
+  line-height: 1.2;
+  font-family: "Helvetica Neue";
+}
+
+.header__subtitle {
+  color: #24292f;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.links {
+  width: 320px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links__header {
+  font-family: "Helvetica Neue";
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+}
+
+.links__container {
+  background-color: #fff;
+  list-style-type: none;
+  border: 1px solid hsla(210, 18%, 87%, 1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 10px;
+  gap: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.links__link,
+.links__title {
+  font-size: 14px;
+  font-size: 1.4;
+  color: #57606a;
+}
+
+.links__link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 0px 10px;
+  gap: 30px;
+  border-bottom: 1px solid hsla(210, 18%, 87%, 1);
+  width: 340px;
+}
+
+.links__link:last-child {
+  border-bottom: none;
+}
+.linsk__link:hover {
+  color: #4d95e8;
+}
+
+.linsk__link,
+.links__link:visited {
+  text-decoration: none;
+  font-size: 22px;
+  color: #0969da;
+}
+
+.links__title {
+  margin: 0;
+  min-width: 100px;
+  font-size: 22px;
+}
+
+footer {
+  margin: 0 0 40px 0;
+}
+.button-link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 320px;
+  background: rgb(18, 55, 239);
+  border: 1px solid rgba(240, 242, 244, 0.15);
+  border-radius: 5px;
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  color: #d9dde1;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  background-color: #060b12;
+  color: rgb(224, 223, 238);
+  box-shadow: 0 1px 0 rgba(236, 241, 247, 0.1);
+}
+
+  .swal-text {
+    font-size: 30px;
+    color: #060b12;
+  }
+  .swal-icon {
+   width: 250px;
+  }
+  
+  .swal-button {
+    background-color: #0969da;
+  }
+
+
+ .title-block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+ }
+
+
+ .title-block_icon{
+  width: 35px; 
+ }
+
+ /* 
+  У тебя не правильный формат картинок, я скачал правильный формат для github,
+  нужно скачивать иконки через сайт иконок а не через гугл сохранить изображение 
+
+  Формат иконок предпочтителен svg, так как это изображение не мылится по скольку браузер сам отрисовывает его
+
+  Также старайся именовать файлы так что бы потом было понятно что в них без открытия!
+
+  И следи за порядком кода, отступы и тд
+
+  Если не будешь, а потом я приду тебе помогать, то я буду очень грустный
+ */
+ 
