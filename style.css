@@ -83,7 +83,7 @@ body {
   padding: 0px 0px 10px;
   gap: 30px;
   border-bottom: 1px solid hsla(210, 18%, 87%, 1);
-  width: 340px;
+  width: 360px;
 }
 
 .links__link:last-child {
